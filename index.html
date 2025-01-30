@@ -93,7 +93,7 @@
             </div>
         </div>
     </header>
-    <main class="mt-10">
+    <main class="mt-10 relative">
         <!-- Services Section -->
         <section class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto p-5 md:p-0">
             <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Services</h1>
@@ -295,9 +295,52 @@
 
             </div>
         </section>
-    </main>
-    <footer>
+        <!-- Grocery News -->
+        <section
+            class="absolute bottom-[-580px] lg:bottom-[-420px] left-5 right-5 lg:left-[30px] lg:right-[30px] 2xl:left-[140px] 2xl:right-[140px] bg-colorSecondary lg:w-3/4 lg:flex items-center justify-evenly p-8 mx-auto rounded-xl gap-5">
+            <div>
+                <img src="./assets/vegetable-busket.png" alt="">
+            </div>
+            <div class="flex flex-col gap-4 items-start">
+                <h1 class="text-[2.3rem] font-bold text-colorPrimary">Get Grocery News!</h1>
+                <p class="text-black">Exclusive training tips, ticks, product deals and more.</p>
+                <input type="email" placeholder="Your Email Address" class="px-3 py-4 rounded-lg w-full">
+                <button class="btn bg-colorPrimary text-white">Subscribe</button>
+            </div>
+        </section>
 
+    </main>
+    <footer
+        class="footer bg-colorPrimary text-base-content text-white px-[20px] lg:px-[40px] pb-[80px] pt-[360px] lg:mt-[220px] mt-[280px]">
+
+        <div>
+            <img src="./assets/logo-footer.png" alt="">
+            <p class="max-w-[400px]">Discover a world of treats, toys, and essentials handpicked for your furry friends
+            </p>
+        </div>
+        <nav>
+            <h6 class="footer-title">Important Links</h6>
+            <a class="link link-hover">Product</a>
+            <a class="link link-hover">Service</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Social</h6>
+            <div class="grid grid-flow-col gap-4">
+                <a>
+                    <i class="fa-brands font-bold cursor-pointer text-3xl mr-3 fa-facebook"></i>
+                </a>
+                <a>
+                    <i class="fa-brands font-bold cursor-pointer text-3xl mr-3 fa-instagram"></i>
+                </a>
+                <a>
+                    <i class="fa-brands font-bold cursor-pointer text-3xl mr-3 fa-linkedin"></i>
+                </a>
+                <a>
+                    <i class="fa-brands font-bold cursor-pointer text-3xl mr-3 fa-youtube"></i>
+                </a>
+            </div>
+        </nav>
     </footer>
 
 </body>
