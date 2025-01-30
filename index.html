@@ -37,7 +37,8 @@
 
 <body class="sora">
     <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
-        <nav class="border-b border-gray-200 border-b-1 pb-2 lg:border-none max-w-screen-lg mx-auto">
+        <nav
+            class="border-b border-gray-200 border-b-1 pb-2 lg:border-none lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto">
             <div class="container mx-auto">
                 <div class="navbar">
                     <div class="navbar-start">
@@ -75,7 +76,7 @@
             </div>
         </nav>
         <!-- Hero Section -->
-        <div class="max-w-screen-lg mx-auto px-5 lg:mt-[90px] mt-[60px]">
+        <div class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto px-5 lg:mt-[90px] mt-[60px]">
             <div class="text-center lg:max-w-[730px] lg:mx-auto">
                 <h1 class="font-bold text-[3.5rem] mb-8 leading-[60px] mx-auto">Freshness <span
                         class="text-colorPrimary">You Can
@@ -87,14 +88,14 @@
                     unbeatable prices. From fresh
                     produce to pantry staples, we’ve got you covered every day!</p>
             </div>
-            <div>
+            <div class="mx-auto flex justify-center items-center">
                 <img src="./assets/hero-vegetables.png" alt="">
             </div>
         </div>
     </header>
     <main class="mt-10">
         <!-- Services Section -->
-        <section class="max-w-screen-lg mx-auto p-5 md:p-0">
+        <section class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto p-5 md:p-0">
             <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Services</h1>
             <!-- Card Container -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-center">
@@ -129,18 +130,142 @@
             </div>
         </section>
         <!-- Popular Products -->
-        <section class="mt-[140px] bg-colorSecondary">
-            <div class="max-w-screen-lg mx-auto">
+        <section class="mt-[140px] bg-colorSecondary py-[100px]">
+            <div class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto">
                 <h1 class="text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Popular Products</h1>
                 <!-- Grid Container -->
-                <div class="grid grid-cols-2">
-                    <div class="relative bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] p-8 rounded-xl">
-                        <h1>30% off</h1>
-                        <p>Discover a world of treats, toys, and essentials handpicked for </p>
-                        <button>Buy Now</button>
-                        <img class="relative right-0 bottom-0" src="./assets/vegetable-offer.png" alt="">
+                <div class="grid grid-cols-1 lg:grid-cols-[420px_auto] gap-10">
+                    <!-- 30% Off -->
+                    <div class="min-h-[360px] relative bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] p-8 rounded-xl">
+                        <h1 class="font-semibold mb-4 text-[2rem] text-white">30% off</h1>
+                        <p class="text-gray-600 mb-4">Discover a world of treats, toys, and essentials handpicked for
+                        </p>
+                        <button class="btn bg-white text-black text-[1.25rem]">Buy Now</button>
+                        <img class="absolute right-0 bottom-0" src="./assets/vegetable-offer.png" alt="">
                     </div>
+                    <!-- Products Grid -->
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-3">
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-md p-3 gap-3 lg:flex items-center justify-start hidden">
+                            <div class="w-[80px] bg-colorSecondary rounded-md">
+                                <img src="./assets/onion.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
+                                <p class="text-[0.9rem]">$39.99</p>
+                            </div>
+                        </div>
 
+
+
+                    </div>
                 </div>
             </div>
         </section>
