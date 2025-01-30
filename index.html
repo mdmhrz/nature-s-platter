@@ -35,12 +35,12 @@
 </head>
 
 <body class="sora">
-    <header>
-        <nav class="border-b border-green-200 border-b-1 pb-2 lg:border-none">
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+        <nav class="border-b border-gray-200 border-b-1 pb-2 lg:border-none max-w-screen-lg mx-auto">
             <div class="container mx-auto">
                 <div class="navbar">
                     <div class="navbar-start">
-                        <a class="btn btn-ghost text-xl"><img src="./assets/logo-header.png" alt=""></a>
+                        <a class="text-xl"><img src="./assets/logo-header.png" alt="Company Logo" class="w-[154px]"></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
@@ -49,12 +49,18 @@
                             <li><a>Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="navbar-end">
-                        <a class="btn hidden lg:block">Login</a>
-                        <a class="btn hidden lg:block bg-colorPrimary text-white font-semibold">Register</a>
+                    <div class="navbar-end flex items-center justify-end gap-3">
+                        <div class="mr-2 lg:flex gap-5 cursor-pointer hidden lg:block">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <a
+                            class="btn hidden lg:block bg-white text-colorPrimary border border-colorPrimary font-semibold min-h-0 h-auto px-3 py-3">Login</a>
+                        <a
+                            class="btn hidden lg:block bg-colorPrimary text-white font-semibold min-h-0 h-auto px-3 py-3">Register</a>
                         <div class="dropdown">
                             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                                <span>&#9776;</span>
+                                <span class="font-bold text-3xl">&#9776;</span>
                             </div>
                             <ul tabindex="0"
                                 class="menu items-end menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 left-[-90px] top-[60px] p-2 shadow ">
@@ -67,9 +73,26 @@
                 </div>
             </div>
         </nav>
-
+        <!-- Hero Section -->
+        <div class="max-w-screen-lg mx-auto px-5 lg:mt-[90px] mt-[60px]">
+            <div class="text-center lg:max-w-[827px] lg:mx-auto">
+                <h1 class="font-bold text-5xl mb-8 leading-[60px]">Freshness <span class="text-colorPrimary">You Can
+                        Count</span>
+                    On,
+                    Prices
+                    You’ll Love!</h1>
+                <p class="lg:max-w-[690px] lg:mx-auto mb-8">Shop your daily essentials at unbeatable prices. From fresh
+                    produce to
+                    pantry
+                    staples, we’ve got you
+                    covered every day!</p>
+            </div>
+            <div>
+                <img src="./assets/hero-vegetables.png" alt="">
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="mt-10">
 
     </main>
     <footer>
