@@ -17,7 +17,8 @@
                     colors: {
                         clifford: '#da373d',
                         colorPrimary: '#179800',
-                        colorSecondary: '#'
+                        colorSecondary: '#EFEBE3',
+                        pColor: '#0E0E0E',
                     }
                 }
             }
@@ -75,17 +76,16 @@
         </nav>
         <!-- Hero Section -->
         <div class="max-w-screen-lg mx-auto px-5 lg:mt-[90px] mt-[60px]">
-            <div class="text-center lg:max-w-[827px] lg:mx-auto">
-                <h1 class="font-bold text-5xl mb-8 leading-[60px]">Freshness <span class="text-colorPrimary">You Can
+            <div class="text-center lg:max-w-[730px] lg:mx-auto">
+                <h1 class="font-bold text-[3.5rem] mb-8 leading-[60px] mx-auto">Freshness <span
+                        class="text-colorPrimary">You Can
                         Count</span>
                     On,
                     Prices
                     You’ll Love!</h1>
-                <p class="lg:max-w-[690px] lg:mx-auto mb-8">Shop your daily essentials at unbeatable prices. From fresh
-                    produce to
-                    pantry
-                    staples, we’ve got you
-                    covered every day!</p>
+                <p class="lg:max-w-[690px] lg:mx-auto mb-8 text-[1.25rem] text-pColor">Shop your daily essentials at
+                    unbeatable prices. From fresh
+                    produce to pantry staples, we’ve got you covered every day!</p>
             </div>
             <div>
                 <img src="./assets/hero-vegetables.png" alt="">
@@ -93,7 +93,41 @@
         </div>
     </header>
     <main class="mt-10">
+        <!-- Services Section -->
+        <section class="max-w-screen-lg mx-auto p-5 md:p-0">
+            <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Services</h1>
+            <!-- Card Container -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-center">
+                <!-- Card 1 -->
+                <div class="bg-colorSecondary p-[32px] rounded-md">
+                    <div class="rounded-full w-[140px] h-[140px] bg-white mx-auto p-5 mb-[24px]">
+                        <img src="./assets/service.png" alt="">
+                    </div>
+                    <h3 class="mb-3 font-semibold text-[1.5rem]">24/7 Services </h3>
+                    <p class="font-light text-[1.2rem] text-pColor">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-colorSecondary p-[32px] rounded-md">
+                    <div class="rounded-full w-[140px] h-[140px] bg-white mx-auto p-5 mb-[24px]">
+                        <img src="./assets/delivery.png" alt="">
+                    </div>
+                    <h3 class="mb-3 font-semibold text-[1.5rem]">Fast Delivery</h3>
+                    <p class="font-light text-[1.2rem] text-pColor">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-colorSecondary p-[32px] rounded-md">
+                    <div class="rounded-full w-[140px] h-[140px] bg-white mx-auto p-5 mb-[24px]">
+                        <img src="./assets/healthy.png" alt="">
+                    </div>
+                    <h3 class="mb-3 font-semibold text-[1.5rem]">Healthy Products </h3>
+                    <p class="font-light text-[1.2rem] text-pColor">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
 
+            </div>
+        </section>
     </main>
     <footer>
 
