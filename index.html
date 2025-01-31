@@ -66,9 +66,9 @@
                             </div>
                             <ul tabindex="0"
                                 class="menu items-end menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 left-[-90px] top-[60px] p-2 shadow ">
-                                <li><a>Product</a></li>
-                                <li><a>Service</a></li>
-                                <li><a>Contact Us</a></li>
+                                <li><a href="#products">Product</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
     </header>
     <main class="mt-10 relative">
         <!-- Services Section -->
-        <section class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto p-5 md:p-0">
+        <section id="service" class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto p-5 md:p-0">
             <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Services</h1>
             <!-- Card Container -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-center">
@@ -130,7 +130,7 @@
             </div>
         </section>
         <!-- Popular Products -->
-        <section class="mt-[140px] bg-colorSecondary py-[100px]">
+        <section id="products" class="mt-[140px] bg-colorSecondary py-[100px]">
             <div class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto">
                 <h1 class="text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Popular Products</h1>
                 <!-- Grid Container -->
@@ -267,6 +267,8 @@
                 </div>
             </div>
         </section>
+        <!-- Customers Testimony -->
+
         <!-- Arrival Section -->
         <section class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto py-[140px]">
             <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Arrival & Offers</h1>
@@ -297,7 +299,7 @@
             </div>
         </section>
         <!-- Grocery News -->
-        <section
+        <section id="contact"
             class="absolute bottom-[-580px] lg:bottom-[-420px] left-5 right-5 lg:left-[30px] lg:right-[30px] 2xl:left-[140px] 2xl:right-[140px] bg-colorSecondary lg:w-3/4 lg:flex items-center justify-evenly p-8 mx-auto rounded-xl gap-5">
             <div>
                 <img src="./assets/vegetable-busket.png" alt="">
@@ -321,9 +323,9 @@
         </div>
         <nav>
             <h6 class="footer-title">Important Links</h6>
-            <a class="link link-hover">Product</a>
-            <a class="link link-hover">Service</a>
-            <a class="link link-hover">Contact Us</a>
+            <a href="#products" class="link link-hover">Product</a>
+            <a href="#service" class="link link-hover">Service</a>
+            <a href="#contact" class="link link-hover">Contact Us</a>
         </nav>
         <nav>
             <h6 class="footer-title">Social</h6>
