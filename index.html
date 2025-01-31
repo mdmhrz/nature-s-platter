@@ -35,6 +35,30 @@
         .sora {
             font-family: "Sora", serif;
         }
+
+        @keyframes fade-slide {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-text {
+            animation: fade-slide 1s ease-out;
+        }
+
+        .delay-1 {
+            animation-delay: 0.3s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.6s;
+        }
     </style>
 </head>
 
@@ -48,7 +72,7 @@
                         <a class="text-xl hidden lg:block"><img src="./assets/logo-header.png" alt="Company Logo"
                                 class="w-[154px]"></a>
                         <a class="text-xl lg:hidden"><img src="./assets/logo.png" alt="Company Logo"
-                                class="w-[80px]"></a>
+                                class="w-[60px]"></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
@@ -85,12 +109,11 @@
         <div class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto px-5 lg:mt-[90px] mt-[60px]">
             <!-- Hero Title Section -->
             <div class="text-center lg:max-w-[730px] lg:mx-auto">
-                <h1 class="font-bold text-[3.5rem] mb-8 leading-[60px] mx-auto">Freshness <span
-                        class="text-colorPrimary">You Can
-                        Count</span>
-                    On,
-                    Prices
-                    You’ll Love!</h1>
+                <h1 class="text-4xl md:text-6xl font-bold text-center leading-relaxed mb-6">
+                    <span class="block animate-text text-gray-900">Freshness</span>
+                    <span class="block animate-text delay-1 text-colorPrimary">You Can Count</span>
+                    <span class="block animate-text delay-2 text-gray-900">On, Prices You’ll Love!</span>
+                </h1>
                 <p class="lg:max-w-[690px] lg:mx-auto mb-8 text-[1.25rem] text-pColor">Shop your daily essentials at
                     unbeatable prices. From fresh
                     produce to pantry staples, we’ve got you covered every day!</p>
