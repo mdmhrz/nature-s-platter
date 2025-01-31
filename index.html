@@ -19,7 +19,7 @@
                     colors: {
                         clifford: '#da373d',
                         colorPrimary: '#179800',
-                        colorSecondary: '#EFEBE3',
+                        colorSecondary: '#d9ffee',
                         pColor: '#0E0E0E',
                     }
 
@@ -63,39 +63,39 @@
 </head>
 
 <body class="sora">
-    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+    <header class="bg-gradient-to-t from-green-100 to-[#FFFFFF]">
         <nav
-            class="border-b border-gray-200 border-b-1 pb-2 lg:border-none lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto">
+            class="border-b border-gray-200 border-b-1 py-2 lg:border-none lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto bg-green-50">
             <div class="container mx-auto">
                 <div class="navbar">
-                    <div class="navbar-start">
+                    <div class="navbar-start cursor-pointer select-none">
                         <a class="text-xl hidden lg:block"><img src="./assets/logo-header.png" alt="Company Logo"
-                                class="w-[154px]"></a>
+                                class="w-[140px]"></a>
                         <a class="text-xl lg:hidden"><img src="./assets/logo.png" alt="Company Logo"
                                 class="w-[60px]"></a>
                     </div>
-                    <div class="navbar-center hidden lg:flex">
+                    <div class="navbar-center hidden lg:flex ">
                         <ul class="menu menu-horizontal px-1">
-                            <li><a>Product</a></li>
-                            <li><a>Service</a></li>
-                            <li><a>Contact Us</a></li>
+                            <li><a class="hover:bg-green-200">Product</a></li>
+                            <li><a class="hover:bg-green-200">Service</a></li>
+                            <li><a class="hover:bg-green-200">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="navbar-end flex items-center justify-end gap-3">
-                        <div class="mr-2 lg:flex gap-5 cursor-pointer hidden lg:block">
+                        <div class="mr-2 lg:flex gap-5 cursor-pointer hidden">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
                         </div>
                         <a
-                            class="btn hidden lg:block bg-white text-colorPrimary border border-colorPrimary font-semibold min-h-0 h-auto px-3 py-3">Login</a>
+                            class="btn hidden lg:block bg-white text-colorPrimary border border-colorPrimary font-semibold min-h-0 h-auto px-3 py-3 hover:bg-colorPrimary hover:text-white">Login</a>
                         <a
-                            class="btn hidden lg:block bg-colorPrimary text-white font-semibold min-h-0 h-auto px-3 py-3">Register</a>
+                            class="btn hidden lg:block bg-colorPrimary text-white font-semibold min-h-0 h-auto px-3 py-3 hover:bg-green-500">Register</a>
                         <div class="dropdown">
                             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                                 <span class="font-bold text-3xl">&#9776;</span>
                             </div>
                             <ul tabindex="0"
-                                class="menu items-end menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 left-[-90px] top-[60px] p-2 shadow ">
+                                class="menu items-end menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 right-0 top-[60px] p-2 shadow ">
                                 <li><a href="#products">Product</a></li>
                                 <li><a href="#service">Service</a></li>
                                 <li><a href="#contact">Contact Us</a></li>
@@ -109,7 +109,7 @@
         <div class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto px-5 lg:mt-[90px] mt-[60px]">
             <!-- Hero Title Section -->
             <div class="text-center lg:max-w-[730px] lg:mx-auto">
-                <h1 class="text-4xl md:text-6xl font-bold text-center leading-relaxed mb-6">
+                <h1 class="text-5xl md:text-6xl font-bold text-center leading-[60px] lg:leading-[75px] mb-6">
                     <span class="block animate-text text-gray-900">Freshness</span>
                     <span class="block animate-text delay-1 text-colorPrimary">You Can Count</span>
                     <span class="block animate-text delay-2 text-gray-900">On, Prices You’ll Love!</span>
@@ -135,7 +135,8 @@
                         <img src="./assets/service.png" alt="">
                     </div>
                     <h3 class="mb-3 font-semibold text-[1.5rem]">24/7 Services </h3>
-                    <p class="font-light text-[1.2rem] text-pColor">We are always here for you! Our dedicated support
+                    <p class="font-light text-[1rem] text-pColor leading-7">We are always here for you! Our dedicated
+                        support
                         team is available around the clock to ensure you receive the best service whenever you need it.
                     </p>
                 </div>
@@ -145,7 +146,8 @@
                         <img src="./assets/delivery.png" alt="">
                     </div>
                     <h3 class="mb-3 font-semibold text-[1.5rem]">Fast Delivery</h3>
-                    <p class="font-light text-[1.2rem] text-pColor">We prioritize speed and efficiency to get your
+                    <p class="font-light text-[1rem] text-pColor leading-7">We prioritize speed and efficiency to get
+                        your
                         orders delivered to you in no time. Enjoy hassle-free and timely deliveries every time you shop
                         with us.</p>
                 </div>
@@ -155,7 +157,8 @@
                         <img src="./assets/healthy.png" alt="">
                     </div>
                     <h3 class="mb-3 font-semibold text-[1.5rem]">Healthy Products</h3>
-                    <p class="font-light text-[1.2rem] text-pColor">Your well-being matters! We offer high-quality, 100%
+                    <p class="font-light text-[1rem] text-pColor leading-7">Your well-being matters! We offer
+                        high-quality, 100%
                         natural products that promote a healthier lifestyle, ensuring you and your family stay fit and
                         nourished.</p>
                 </div>
@@ -169,18 +172,19 @@
                 <div class="grid grid-cols-1 lg:grid-cols-[420px_auto] gap-10">
                     <!-- 30% Off -->
                     <div
-                        class="lg:min-h-[360px] min-h-[420px] relative bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] p-8 rounded-xl">
-                        <h1 class="font-semibold mb-4 text-[2rem] text-white">30% off</h1>
+                        class="shadow-lg lg:min-h-[360px] min-h-[420px] relative bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF] p-8 rounded-xl">
+                        <h1 class=" font-semibold mb-4 text-[2rem] text-white">30% off</h1>
                         <p class="text-gray-600 mb-4">Discover a world of treats, toys, and essentials handpicked for
                         </p>
-                        <button class="btn bg-white text-black text-[1.25rem]">Buy Now</button>
+                        <button
+                            class="hover:bg-green-600 hover:text-white border-none hover:transition btn bg-white text-black text-[1.25rem]">Buy
+                            Now</button>
                         <img class="absolute right-0 bottom-0" src="./assets/vegetable-offer.png" alt="">
                     </div>
                     <!-- Products Grid -->
                     <div class="grid grid-cols-2 lg:grid-cols-3 gap-3">
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/onion.png" alt="">
                             </div>
                             <div>
@@ -193,8 +197,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/tomato.png" alt="">
                             </div>
                             <div>
@@ -207,8 +210,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/potato.png" alt="">
                             </div>
                             <div>
@@ -221,8 +223,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/garlic.png" alt="">
                             </div>
                             <div>
@@ -235,8 +236,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/chili.png" alt="">
                             </div>
                             <div>
@@ -249,8 +249,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/carrot.png" alt="">
                             </div>
                             <div>
@@ -263,8 +262,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/ginger.png" alt="">
                             </div>
                             <div>
@@ -277,8 +275,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 flex items-center justify-start">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/apple.png" alt="">
                             </div>
                             <div>
@@ -291,8 +288,7 @@
                             </div>
                         </div>
                         <div class="bg-white rounded-md p-3 gap-3 lg:flex items-center justify-start hidden">
-                            <div
-                                class="w-[80px] h-full flex items-center justify-center p-2 bg-colorSecondary rounded-md">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
                                 <img src="./assets/products/cucumber.png" alt="">
                             </div>
                             <div>
@@ -323,7 +319,8 @@
                     <!-- Card 1 -->
                     <div class="bg-colorSecondary p-6 rounded-lg shadow-md">
                         <div class="flex justify-center">
-                            <img src="./assets/men-1.jpg" class="w-20 h-20 rounded-full border-4 border-green-300">
+                            <img src="./assets/men-1.jpg"
+                                class="w-20 h-20 shadow-md rounded-full border-4 border-green-300">
                         </div>
                         <h3 class="mt-4 text-lg font-semibold text-gray-700">Tanmoy Das</h3>
                         <p class="text-sm text-gray-500">Marketing Specialist</p>
@@ -392,19 +389,22 @@
             <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Arrival & Offers</h1>
             <div class="grid grid-cols-1 lg:grid-cols-[55%_auto] gap-8">
                 <div class="flex p-6 bg-[#115414] rounded-md items-center justify-between gap-4">
-                    <div class="flex flex-col gap-4 justify-center items-center">
+                    <div class="flex flex-col gap-4 justify-center items-start">
                         <img src="./assets/dawat-logo.png" alt="">
-                        <button class="btn bg-[#63B76D] border-none text-white px-8">Cook Exotic Dishes</button>
+                        <button class="hover:bg-green-600 btn bg-[#63B76D] border-none text-white px-8">Cook Exotic
+                            Dishes</button>
                         <h1 class="text-[2rem] text-white">Up to <span class="font-bold">20% Off</span></h1>
                     </div>
                     <div>
                         <img src="./assets/dawat-mock-up.png" alt="">
                     </div>
                 </div>
-                <div class="flex p-6 bg-[#102861] rounded-md items-center justify-between gap-4">
-                    <div class="flex flex-col gap-4 justify-center items-center">
+                <div class="flex p-6 bg-[#102861] rounded-md items-center justify-center gap-4">
+                    <div class="flex flex-col gap-4 justify-center items-start">
                         <img src="./assets/india-gate-logo.png" alt="">
-                        <button class="btn bg-[#2A4D97] border-none text-white px-8">World’s No.1 Rice</button>
+                        <button
+                            class="hover:bg-white hover:text-black btn bg-[#2A4D97] border-none text-white px-8">World’s
+                            No.1 Rice</button>
                         <h1 class="text-[2rem] text-white">Up to <span class="font-bold">20% Off</span></h1>
                     </div>
                     <div>
