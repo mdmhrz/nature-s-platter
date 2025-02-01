@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/main-logo.svg" type="image/x-icon">
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/c4e937c9d9.js" crossorigin="anonymous"></script>
     <!-- Tailwind CSS with DaisyUI CDN -->
@@ -63,16 +63,19 @@
 
 <body class="sora">
     <header class="bg-gradient-to-t from-green-100 to-[#FFFFFF]">
+        <!-- Main Top Navigation of Website -->
         <nav
             class="border-b border-gray-200 border-b-1 py-2 lg:border-none lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto bg-green-50">
             <div class="container mx-auto">
                 <div class="navbar">
+                    <!-- Navbar Left Side -->
                     <div class="navbar-start cursor-pointer select-none">
                         <a class="text-xl hidden md:block"><img src="./assets/header-logo.svg" alt="Company Logo"
                                 class="w-[140px]"></a>
                         <a class="text-xl md:hidden"><img src="./assets/main-logo.svg" alt="Company Logo"
                                 class="w-[60px]"></a>
                     </div>
+                    <!-- Navbar Middle Side -->
                     <div class="navbar-center hidden lg:flex ">
                         <ul class="menu menu-horizontal px-1">
                             <li><a class="hover:bg-green-200 font-semibold">Product</a></li>
@@ -80,6 +83,7 @@
                             <li><a class="hover:bg-green-200 font-semibold">Contact Us</a></li>
                         </ul>
                     </div>
+                    <!-- Navbar Last Side -->
                     <div class="navbar-end flex items-center justify-end gap-3">
                         <div class="mr-2 md:flex gap-5 cursor-pointer hidden">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -90,6 +94,8 @@
                         <a
                             class="btn hidden md:block bg-colorPrimary text-white font-semibold min-h-0 h-auto px-3 py-3 hover:bg-green-500">Shop
                             Now</a>
+
+                        <!-- This is Hamburger Menu form DaisyUI -->
                         <div class="dropdown">
                             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                                 <span class="font-bold text-3xl">&#9776;</span>
@@ -106,7 +112,7 @@
             </div>
         </nav>
         <!-- Hero Section -->
-        <div class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto px-5 lg:mt-[90px] mt-[60px]">
+        <div class="lg:px-[40px] 2xl:px-[160px] mx-auto px-5 lg:mt-[90px] mt-[60px]">
             <!-- Hero Title Section -->
             <div class="text-center lg:max-w-[730px] lg:mx-auto">
                 <h1 class="text-5xl md:text-6xl font-bold text-center leading-[60px] lg:leading-[75px] mb-6">
@@ -118,6 +124,7 @@
                     unbeatable prices. From fresh
                     produce to pantry staples, we’ve got you covered every day!</p>
             </div>
+            <!-- Hero Image Area -->
             <div class="mx-auto flex justify-center items-center">
                 <img src="./assets/hero-vegetables.png" alt="">
             </div>
@@ -197,121 +204,115 @@
                                     <span>4.5</span>
                                 </div>
                                 <h3 class="text-[1.1rem] font-semibold">Onion 1KG</h3>
-                                <p class="text-[.9rem] text-gray-700 font-semibold"">$2.99</p>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$2.99</p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 flex items-center justify-start">
-                                <div
-                                    class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                    <img src="./assets/products/tomato.png" alt="">
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/tomato.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>5.0</span>
                                 </div>
-                                <div>
-                                    <div class="flex gap-2 items-center">
-                                        <i class="text-amber-500 fa-solid fa-star"></i>
-                                        <span>5.0</span>
-                                    </div>
-                                    <h3 class="text-[1.1rem] font-semibold">Tomato 500g</h3>
-                                    <p class="text-[.9rem] text-gray-700 font-semibold"">$9.99</p>
+                                <h3 class="text-[1.1rem] font-semibold">Tomato 500g</h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$9.99</p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 flex items-center justify-start">
-                                    <div
-                                        class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                        <img src="./assets/products/potato.png" alt="">
-                                    </div>
-                                    <div>
-                                        <div class="flex gap-2 items-center">
-                                            <i class="text-amber-500 fa-solid fa-star"></i>
-                                            <span>4.8</span>
-                                        </div>
-                                        <h3 class="text-[1.1rem] font-semibold">Potato 1KG</h3>
-                                        <p class="text-[.9rem] text-gray-700 font-semibold"">$3.99</p>
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/potato.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Potato 1KG</h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$3.99</p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 flex items-center justify-start">
-                                        <div
-                                            class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                            <img src="./assets/products/garlic.png" alt="">
-                                        </div>
-                                        <div>
-                                            <div class="flex gap-2 items-center">
-                                                <i class="text-amber-500 fa-solid fa-star"></i>
-                                                <span>5.0</span>
-                                            </div>
-                                            <h3 class="text-[1.1rem] font-semibold">Garlic 1KG</h3>
-                                            <p class="text-[.9rem] text-gray-700 font-semibold"">$39.99</p>
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/garlic.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Garlic 1KG</h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$39.99</p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 flex items-center justify-start">
-                                            <div
-                                                class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                                <img src="./assets/products/chili.png" alt="">
-                                            </div>
-                                            <div>
-                                                <div class="flex gap-2 items-center">
-                                                    <i class="text-amber-500 fa-solid fa-star"></i>
-                                                    <span>4.5</span>
-                                                </div>
-                                                <h3 class="text-[1.1rem] font-semibold">Chili 1KG</h3>
-                                                <p class="text-[.9rem] text-gray-700 font-semibold"">$7.99</p>
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/chili.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Chili 1KG</h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$7.99</p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 flex items-center justify-start">
-                                                <div
-                                                    class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                                    <img src="./assets/products/carrot.png" alt="">
-                                                </div>
-                                                <div>
-                                                    <div class="flex gap-2 items-center">
-                                                        <i class="text-amber-500 fa-solid fa-star"></i>
-                                                        <span>4.5</span>
-                                                    </div>
-                                                    <h3 class="text-[1.1rem] font-semibold">Carrot 1KG</h3>
-                                                    <p class="text-[.9rem] text-gray-700 font-semibold"">$4.99</p>
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/carrot.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Carrot 1KG</h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$4.99</p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 flex items-center justify-start">
-                                                    <div
-                                                        class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                                        <img src="./assets/products/ginger.png" alt="">
-                                                    </div>
-                                                    <div>
-                                                        <div class="flex gap-2 items-center">
-                                                            <i class="text-amber-500 fa-solid fa-star"></i>
-                                                            <span>4.5</span>
-                                                        </div>
-                                                        <h3 class="text-[1.1rem] font-semibold">Ginger 1KG</h3>
-                                                        <p class="text-[.9rem] text-gray-700 font-semibold"">$39.99</p>
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/ginger.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Ginger 1KG</h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$39.99</p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 flex items-center justify-start">
-                                                        <div
-                                                            class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                                            <img src="./assets/products/apple.png" alt="">
-                                                        </div>
-                                                        <div>
-                                                            <div class="flex gap-2 items-center">
-                                                                <i class="text-amber-500 fa-solid fa-star"></i>
-                                                                <span>4.5</span>
-                                                            </div>
-                                                            <h3 class="text-[1.1rem] font-semibold">Apple 1KG</h3>
-                                                            <p class="text-[.9rem] text-gray-700 font-semibold"">$39.99</p>
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/apple.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Apple 1KG</h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">$39.99
+                                </p>
                             </div>
                         </div>
                         <div class=" bg-white rounded-md p-3 shadow-lg gap-3 lg:flex items-center justify-start
                                                                 hidden">
-                                                            <div
-                                                                class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
-                                                                <img src="./assets/products/cucumber.png" alt="">
-                                                            </div>
-                                                            <div>
-                                                                <div class="flex gap-2 items-center">
-                                                                    <i class="text-amber-500 fa-solid fa-star"></i>
-                                                                    <span>4.5</span>
-                                                                </div>
-                                                                <h3 class="text-[1.1rem] font-semibold">Cucumber 1KG
-                                                                </h3>
-                                                                <p class="text-[.9rem] text-gray-700 font-semibold"">$9.99</p>
+                            <div class="w-[80px] h-full flex items-center justify-center p-2 bg-gray-200 rounded-md">
+                                <img src="./assets/products/cucumber.png" alt="">
+                            </div>
+                            <div>
+                                <div class="flex gap-2 items-center">
+                                    <i class="text-amber-500 fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <h3 class="text-[1.1rem] font-semibold">Cucumber 1KG
+                                </h3>
+                                <p class="text-[.9rem] text-gray-700 font-semibold">
+                                    $9.99</p>
                             </div>
                         </div>
                     </div>
@@ -320,120 +321,95 @@
         </section>
         <!-- Customers Testimony Section -->
         <section class=" lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto p-5 mt-10 mb-10">
-                                                                <div
-                                                                    class="relative rounded-2xl p-8 md:p-12 w-full mx-auto text-center">
-                                                                    <!-- Title -->
-                                                                    <div class="text-left">
-                                                                        <h1
-                                                                            class="text-3xl font-bold text-colorPrimary">
-                                                                            Customer Testimonials</h1>
-                                                                        <p class="text-gray-600 mt-2">
-                                                                            Hear what our happy customers have to say
-                                                                            about our service and products.
-                                                                        </p>
-                                                                    </div>
-                                                                    <!-- Testimonial Grid -->
-                                                                    <div class="grid md:grid-cols-3 gap-6 mt-8">
-                                                                        <!-- Card 1 -->
-                                                                        <div
-                                                                            class="bg-colorSecondary p-6 rounded-lg shadow-md">
-                                                                            <div class="flex justify-center">
-                                                                                <img src="./assets/men-1.jpg"
-                                                                                    class="w-20 h-20 shadow-md rounded-full border-4 border-green-300">
-                                                                            </div>
-                                                                            <h3
-                                                                                class="mt-4 text-lg font-semibold text-gray-700">
-                                                                                Tanmoy Das</h3>
-                                                                            <p class="text-sm text-gray-500">Marketing
-                                                                                Specialist</p>
-                                                                            <p class="mt-3 text-gray-600 text-sm">
-                                                                                "Absolutely love the quality of the
-                                                                                products. Their service is top-notch!"
-                                                                            </p>
-                                                                            <div class="rating">
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500"
-                                                                                    checked="checked" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                            </div>
-                                                                        </div>
+            <div class="relative rounded-2xl p-8 md:p-12 w-full mx-auto text-center">
+                <!-- Title -->
+                <div class="text-left">
+                    <h1 class="text-3xl font-bold text-colorPrimary">
+                        Customer Testimonials</h1>
+                    <p class="text-gray-600 mt-2">
+                        Hear what our happy customers have to say
+                        about our service and products.
+                    </p>
+                </div>
+                <!-- Testimonial Grid -->
+                <div class="grid md:grid-cols-3 gap-6 mt-8">
+                    <!-- Card 1 -->
+                    <div class="bg-colorSecondary p-6 rounded-lg shadow-md">
+                        <div class="flex justify-center">
+                            <img src="./assets/men-1.jpg"
+                                class="w-20 h-20 shadow-md rounded-full border-4 border-green-300">
+                        </div>
+                        <h3 class="mt-4 text-lg font-semibold text-gray-700">
+                            Tanmoy Das</h3>
+                        <p class="text-sm text-gray-500">Marketing
+                            Specialist</p>
+                        <p class="mt-3 text-gray-600 text-sm">
+                            "Absolutely love the quality of the
+                            products. Their service is top-notch!"
+                        </p>
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500"
+                                checked="checked" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        </div>
+                    </div>
 
-                                                                        <!-- Card 2 -->
-                                                                        <div
-                                                                            class="bg-colorSecondary p-6 rounded-lg shadow-md">
-                                                                            <div class="flex justify-center">
-                                                                                <img src="./assets/women.jpg"
-                                                                                    class="w-20 h-20 rounded-full border-4 border-green-300">
-                                                                            </div>
-                                                                            <h3
-                                                                                class="mt-4 text-lg font-semibold text-gray-700">
-                                                                                Mehjabin Chowdhury</h3>
-                                                                            <p class="text-sm text-gray-500">Business
-                                                                                Owner</p>
-                                                                            <p class="mt-3 text-gray-600 text-sm">
-                                                                                "A fantastic experience! The team was
-                                                                                friendly, and the product quality
-                                                                                exceeded my
-                                                                                expectations."
-                                                                            </p>
-                                                                            <div class="rating">
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500"
-                                                                                    checked="checked" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                            </div>
-                                                                        </div>
+                    <!-- Card 2 -->
+                    <div class="bg-colorSecondary p-6 rounded-lg shadow-md">
+                        <div class="flex justify-center">
+                            <img src="./assets/women.jpg" class="w-20 h-20 rounded-full border-4 border-green-300">
+                        </div>
+                        <h3 class="mt-4 text-lg font-semibold text-gray-700">
+                            Mehjabin Chowdhury</h3>
+                        <p class="text-sm text-gray-500">Business
+                            Owner</p>
+                        <p class="mt-3 text-gray-600 text-sm">
+                            "A fantastic experience! The team was
+                            friendly, and the product quality
+                            exceeded my
+                            expectations."
+                        </p>
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500"
+                                checked="checked" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        </div>
+                    </div>
 
-                                                                        <!-- Card 3 -->
-                                                                        <div
-                                                                            class="bg-colorSecondary p-6 rounded-lg shadow-md">
-                                                                            <div class="flex justify-center">
-                                                                                <img src="./assets/men-2.jpg"
-                                                                                    class="w-20 h-20 rounded-full border-4 border-green-300">
-                                                                            </div>
-                                                                            <h3
-                                                                                class="mt-4 text-lg font-semibold text-gray-700">
-                                                                                Tashdid Rahman</h3>
-                                                                            <p class="text-sm text-gray-500">Automobile
-                                                                                Engineer</p>
-                                                                            <p class="mt-3 text-gray-600 text-sm">
-                                                                                "Great customer support and fast
-                                                                                delivery. Highly recommend!"
-                                                                            </p>
-                                                                            <div class="rating">
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500"
-                                                                                    checked="checked" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                                <input type="radio" name="rating-4"
-                                                                                    class="mask mask-star-2 bg-green-500" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <button
-                                                                        class="mt-6 px-6 py-2 bg-colorPrimary text-white font-semibold rounded-lg shadow-md hover:bg-green-600">
-                                                                        Read More Reviews
-                                                                    </button>
-                                                                </div>
+                    <!-- Card 3 -->
+                    <div class="bg-colorSecondary p-6 rounded-lg shadow-md">
+                        <div class="flex justify-center">
+                            <img src="./assets/men-2.jpg" class="w-20 h-20 rounded-full border-4 border-green-300">
+                        </div>
+                        <h3 class="mt-4 text-lg font-semibold text-gray-700">
+                            Tashdid Rahman</h3>
+                        <p class="text-sm text-gray-500">Automobile
+                            Engineer</p>
+                        <p class="mt-3 text-gray-600 text-sm">
+                            "Great customer support and fast
+                            delivery. Highly recommend!"
+                        </p>
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500"
+                                checked="checked" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="mt-6 px-6 py-2 bg-colorPrimary text-white font-semibold rounded-lg shadow-md hover:bg-green-600">
+                    Read More Reviews
+                </button>
+            </div>
         </section>
         <!-- Arrival Section -->
         <section class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto pb-[140px]">
