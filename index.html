@@ -69,9 +69,9 @@
             <div class="container mx-auto">
                 <div class="navbar">
                     <div class="navbar-start cursor-pointer select-none">
-                        <a class="text-xl hidden lg:block"><img src="./assets/logo-header.png" alt="Company Logo"
+                        <a class="text-xl hidden md:block"><img src="./assets/header-logo.svg" alt="Company Logo"
                                 class="w-[140px]"></a>
-                        <a class="text-xl lg:hidden"><img src="./assets/logo.png" alt="Company Logo"
+                        <a class="text-xl md:hidden"><img src="./assets/main-logo.svg" alt="Company Logo"
                                 class="w-[60px]"></a>
                     </div>
                     <div class="navbar-center hidden lg:flex ">
@@ -82,14 +82,14 @@
                         </ul>
                     </div>
                     <div class="navbar-end flex items-center justify-end gap-3">
-                        <div class="mr-2 lg:flex gap-5 cursor-pointer hidden">
+                        <div class="mr-2 md:flex gap-5 cursor-pointer hidden">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <i class="fa-solid fa-cart-shopping"></i>
                         </div>
                         <a
-                            class="btn hidden lg:block bg-white text-colorPrimary border border-colorPrimary font-semibold min-h-0 h-auto px-3 py-3 hover:bg-colorPrimary hover:text-white">Login</a>
+                            class="btn hidden md:block bg-white text-colorPrimary border border-colorPrimary font-semibold min-h-0 h-auto px-3 py-3 hover:bg-colorPrimary hover:text-white">Login</a>
                         <a
-                            class="btn hidden lg:block bg-colorPrimary text-white font-semibold min-h-0 h-auto px-3 py-3 hover:bg-green-500">Register</a>
+                            class="btn hidden md:block bg-colorPrimary text-white font-semibold min-h-0 h-auto px-3 py-3 hover:bg-green-500">Shop Now</a>
                         <div class="dropdown">
                             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                                 <span class="font-bold text-3xl">&#9776;</span>
@@ -125,7 +125,7 @@
     </header>
     <main class="mt-10 relative">
         <!-- Services Section -->
-        <section id="service" class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto p-5 md:p-0">
+        <section id="service" class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto p-5 lg:p-0">
             <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Services</h1>
             <!-- Card Container -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-center">
@@ -388,7 +388,7 @@
         <section class="lg:px-[40px] 2xl:px-[160px] px-[20px] mx-auto pb-[140px]">
             <h1 class=" text-colorPrimary font-semibold text-[2.25rem] mb-[48px]">Arrival & Offers</h1>
             <div class="grid grid-cols-1 lg:grid-cols-[55%_auto] gap-8">
-                <div class="flex p-6 bg-[#115414] rounded-md items-center justify-between gap-4">
+                <div class="flex p-6 bg-[#115414] rounded-md items-center justify-evenly gap-4">
                     <div class="flex flex-col gap-4 justify-center items-start">
                         <img src="./assets/dawat-logo.png" alt="">
                         <button class="hover:bg-green-600 btn bg-[#63B76D] border-none text-white px-8">Cook Exotic
@@ -399,7 +399,7 @@
                         <img src="./assets/dawat-mock-up.png" alt="">
                     </div>
                 </div>
-                <div class="flex p-6 bg-[#102861] rounded-md items-center justify-center gap-4">
+                <div class="flex p-6 bg-[#102861] rounded-md items-center justify-evenly gap-4">
                     <div class="flex flex-col gap-4 justify-center items-start">
                         <img src="./assets/india-gate-logo.png" alt="">
                         <button
@@ -415,15 +415,15 @@
         </section>
         <!-- Grocery News -->
         <section id="contact"
-            class="absolute bottom-[-580px] lg:bottom-[-420px] left-5 right-5 lg:left-[30px] lg:right-[30px] 2xl:left-[140px] 2xl:right-[140px] bg-colorSecondary lg:w-3/4 lg:flex items-center justify-evenly p-8 mx-auto rounded-xl gap-5">
-            <div>
+            class="absolute bottom-[-580px] lg:bottom-[-420px] left-5 right-5 lg:left-[30px] lg:right-[30px] 2xl:left-[140px] 2xl:right-[140px] bg-colorSecondary lg:w-3/4 flex flex-col lg:flex-row items-center justify-evenly p-8 mx-auto rounded-xl gap-5">
+            <div class="text-center">
                 <img src="./assets/vegetable-busket.png" alt="">
             </div>
             <div class="flex flex-col gap-4 items-start">
                 <h1 class="text-[2.3rem] font-bold text-colorPrimary">Get Grocery News!</h1>
                 <p class="text-black">Exclusive training tips, ticks, product deals and more.</p>
                 <input type="email" placeholder="Your Email Address" class="px-3 py-4 rounded-lg w-full">
-                <button class="btn bg-colorPrimary text-white">Subscribe</button>
+                <button class="btn bg-colorPrimary text-white hover:bg-green-500">Subscribe</button>
             </div>
         </section>
     </main>
@@ -431,7 +431,7 @@
         class="footer bg-colorPrimary text-base-content text-white px-[20px] lg:px-[40px] pb-[80px] pt-[360px] lg:pt-[280px] lg:mt-[220px] mt-[280px]">
 
         <div>
-            <img src="./assets/logo-footer.png" alt="">
+            <img src="./assets/footer-logo.svg" alt="">
             <p class="max-w-[400px]">Discover a world of treats, toys, and essentials handpicked for your furry friends
             </p>
         </div>
